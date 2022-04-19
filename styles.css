@@ -1,0 +1,86 @@
+html, body{
+    box-sizing: border-box;
+    background-color: #000000;
+    margin: 0;
+}
+
+a.text:active, /* для активной/посещенной ссылке */
+a.text:hover,  /* при наведении */
+a {
+  text-decoration: none;
+}
+
+.header {
+    /* background-color: #acacac; */ /* - */
+    width: 100%;
+    height: 90px;
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #a57d7d; */ /* - */
+    max-width: 1168px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header-logo {
+    display: flex;
+    width: 300px; /* ? */
+    height: 100%;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.header-logo a {
+    color: #ffffff;
+}
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+}
+
+.navigation__btn {
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.navigation__btn:hover {
+    color: #cfcfcf;
+}
+
+.navigation__btn__white {
+    width: 155px;
+    height: 42px;
+    border-radius: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.navigation__btn__white:hover {
+    background-color: #cfcfcf;
+}
