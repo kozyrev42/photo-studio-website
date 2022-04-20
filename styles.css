@@ -10,6 +10,13 @@ a {
   text-decoration: none;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+}
+
+/* ------ шапка ------ */
+
 .header {
     /* background-color: #acacac; */ /* - */
     width: 100%;
@@ -83,4 +90,110 @@ a {
 
 .navigation__btn__white:hover {
     background-color: #cfcfcf;
+}
+
+
+/* ---------- основной контент ------------ */
+
+.main {
+    width: 100%;
+}
+
+.sctn__first {
+    width: 100%;
+    height: 49.7vw;
+
+    background-image: url(images/image-main-first-svg.svg);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end; 
+    align-items: center;
+}
+
+
+.sctn__first__block1 {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #C0C0C0;
+    letter-spacing: 2px;
+}
+
+.sctn__first__block2 {
+    font-size: 54px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.sctn__first__block3 {
+    max-width: 580px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #C0C0C0;
+    line-height: 20px;
+    text-align: center;
+}
+
+.sctn__first__block4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background-color: #000000; /* - */
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+.block4__label {
+    display: flex;
+    margin-left: 18px;
+}
+
+.block4__label div {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 6px;
+}
+/* вторая секция */
+.sctn__second {
+    padding-top: 110px;
+    padding-bottom: 40px;
+    /* background-color: #686868; */ /* - */
+    display: flex;
+    flex-direction: column;
+    justify-content: end; 
+    align-items: center;
+}
+
+.sctn__second__block1 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.sctn__second__block2 {
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #C0C0C0;
+}
+
+
+
+
+
+
+
+
+/* третья секция */
+.sctn__third {
+    height: 200px;
+    background-color: #686868;
 }
