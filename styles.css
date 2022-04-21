@@ -103,7 +103,7 @@ img {
     width: 100%;
     height: 49.7vw;
 
-    background-image: url(images/image-main-first-svg.svg);
+    background-image: url(images/image-main-first.svg);
     background-size: cover;
 
     display: flex;
@@ -147,7 +147,8 @@ img {
     color: #FFFFFF;
     align-items: center;
     justify-content: right;
-    margin-right: 50px;
+    padding-right: 70px;
+    /* margin-right: 70px; */
 }
 
 .block4__label {
@@ -186,14 +187,94 @@ img {
 }
 
 
-
-
-
-
-
-
 /* третья секция */
 .sctn__third {
-    height: 200px;
-    background-color: #686868;
+    width: 1168px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.sctn__third__card {
+    width: 576px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end; 
+}
+
+.card__block1 {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    /* line-height: 20px; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.card__block2 {
+    margin-left: 30px;
+    margin-right: 45px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #C0C0C0;
+}
+
+.card__block3 {
+    width: 143px;
+    height: 42px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.card__block3__circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: #000000;
+    margin-right: 5px;
+}
+
+.card__block3__text {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#card1 {
+    background-image: url(images/sec-3-card-1.svg);
+}
+
+#card2 {
+    background-image: url(images/sec-3-card-2.svg);
+}
+
+#card3 {
+    background-image: url(images/sec-3-card-3.svg);
+}
+
+#card4 {
+    background-image: url(images/sec-3-card-4.svg);
+}
+
+.sctn__fourth {
+    width: 100%;
+    height: 41.66vw;
+
+    background-image: url(images/image-main-fourth.svg);
+    background-size: cover;
 }
