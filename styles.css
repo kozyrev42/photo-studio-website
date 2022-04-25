@@ -188,7 +188,7 @@ img {
 
 /* третья секция */
 .sctn__third {
-    width: 1168px;
+    max-width: 1168px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 100px;
@@ -198,6 +198,7 @@ img {
 }
 
 .sctn__third__card {
+    /* width: 49.32%; */
     max-width: 576px;
     height: 600px;
     display: flex;
@@ -226,14 +227,18 @@ img {
 }
 
 .card__block3 {
+    display: flex;
     width: 160px;
     height: 42px;
     margin-bottom: 30px;
     background-color: #ffffff;
     border-radius: 14px;
-    display: flex;
     align-items: center;
     padding-left: 5px;
+}
+
+.card__block3:hover {
+    background-color: #cfcfcf;
 }
 
 .card__block3__circle {
